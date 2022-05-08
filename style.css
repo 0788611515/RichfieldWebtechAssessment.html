@@ -1,0 +1,93 @@
+body {
+    
+     font-family: white;
+     color: white;
+     line-height:1;
+     }
+/*Global*/
+.container{
+   width:97%;
+   margin:auto;
+   overflow:help;
+}
+
+/* header**/
+
+header{
+   background:#000000;
+   color:#FfFFFF;
+   padding:0px;
+   padding-top:10px;
+   min-height:50px;
+   border-bottom:#e8491d 1px solid; 
+   
+} 
+
+/* Style the navigation bar links */
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #000000;
+  color: blue;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-bottom: #808080 10px solid;
+  border-top:#808080 15px solid;
+  border-left:#808080 10px solid;
+  border-right:#808080 10px solid;
+}
+
+tr:nth-child(even){
+  border: 1px solid #808080;
+  text-align: left;
+  padding: 8px;
+  background-color: #ffffff;
+  color: black;
+}
+
+ 
+tr, th{
+  background-color: #808080;
+  color: black;
+  text-align: left;
+}
+ 
+ footer{
+   padding-top:20px;
+   margin-top:20px;
+   color:#FFFFFF;
+   min-height:20px;
+   min-height:30px;
+   text-align: center;
+   background:#000000;
+   border-bottom:#e8491d 1px solid;
+   
+}
+
+
